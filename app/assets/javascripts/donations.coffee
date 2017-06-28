@@ -5,11 +5,11 @@
 Panda.init 'pk_test_VFh6LfZghAcDIb1ieKon7Q', 'panda_cc_form'
 
 Panda.on 'success', (cardToken) ->
-  console.log('win')
+  console.log('it works!')
 
 
 Panda.on 'error', (errors) ->
-  console.log('oops')
+  console.log('it does not work')
   $('#error').text ''
   i = 0
   while i < errors.length
